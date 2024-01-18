@@ -24,7 +24,7 @@ public class Homework_02 {
         double doubleVariable = 6.8247615327;
         System.out.println("doubleVariable = " + doubleVariable);
 
-        long longVariable = 748392;
+        long longVariable = 748392343272624L;
         System.out.println("longVariable = " + longVariable);
 
         // Задача 3:
@@ -36,6 +36,15 @@ public class Homework_02 {
         int digit3 = x % 10;
 
         System.out.println("Число " + x + " -> " + digit1 + ", " + digit2 + ", " + digit3);
+
+
+        int y = 345;
+
+        int d1 = y / 100;
+        int d2 = (y - d1 * 100) / 10;
+        int d3 = y - d1 * 100 - d2 * 10;
+
+        System.out.println("Число " + y + " -> " + d1 + ", " + d2 + ", " + d3);
 
     }
 }
