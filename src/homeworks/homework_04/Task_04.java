@@ -7,7 +7,7 @@ public class Task_04 {
 
         double sum = day1 + day2 + day3 + day4 + day5 + day6 + day7;
 
-        double average = sum / 10;
+        double average = sum / 7;
 
         System.out.println("Средняя температура за неделю: " + average);
     }
