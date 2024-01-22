@@ -8,7 +8,7 @@ public class CalculatorWithReturnDemo {
         int a = 30;
         int b = 10;
 
-        int resultFromMethod = calculatorWithReturnTest.sum(a,b);
+        int resultFromMethod = calculatorWithReturnTest.sub(a, b);
 
         System.out.println("Результат вычитания a и b: а = " + a + " - b = " + b + " будет равен: " + resultFromMethod);
 
@@ -18,17 +18,17 @@ public class CalculatorWithReturnDemo {
         int c = 2;
         int d = 2;
 
-        int resultFromMethod1 = calculatorWithReturnTest.sum1(c,d);
+        int resultFromMethod1 = calculatorWithReturnTest.multiplication(c, d);
 
         System.out.println("Результат умножения с и d: c = " + c + " * d = " + d + " будет равен: " + resultFromMethod1);
 
 
         CalculatorWithReturnTest calculatorWithReturnTest2 = new CalculatorWithReturnTest();
 
-        int e = 6;
+        int e = 7;
         int f = 2;
 
-        int resultFromMethod2 = calculatorWithReturnTest.sum2(e,f);
+        double resultFromMethod2 = calculatorWithReturnTest.div(e, f);
 
         System.out.println("Результат деления e и f: e = " + e + " / f = " + f + " будет равен: " + resultFromMethod2);
     }
