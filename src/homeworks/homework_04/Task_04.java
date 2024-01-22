@@ -1,6 +1,6 @@
 package homeworks.homework_04;
 
-public class Task_04 {
+class Task_04 {
     public static void main(String[] args) {
 
         double day1 = -4.0, day2 = 0.0, day3 = 2.0, day4 = 3.0, day5 = -1.0, day6 = -5.0, day7 = 4.0;

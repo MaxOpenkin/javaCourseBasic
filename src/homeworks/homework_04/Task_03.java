@@ -1,6 +1,6 @@
 package homeworks.homework_04;
 
-public class Task_03 {
+class Task_03 {
     public static void main(String[] args) {
 
         int priceA = 1000;
