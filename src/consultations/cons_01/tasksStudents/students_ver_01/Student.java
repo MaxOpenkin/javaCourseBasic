@@ -1,7 +1,6 @@
-package consultations.cons_01.tasks.students_ver_01;
+package consultations.cons_01.tasksStudents.students_ver_01;
 
 public class Student {
-
     String surName;
     String firstName;
     double averageGrade;
