@@ -7,6 +7,7 @@ public class Pizza {
         return Math.PI * Math.pow(radius, 2);
     }
 
+
     public static void main(String[] args) {
 
         double diameter1 = 24.0;
@@ -28,6 +29,7 @@ public class Pizza {
         // Вычисляем количество лишних калорий:
 
         double extraCalories = areaDifference * caloriesPerCentimeter;
+
 
         System.out.println("Лишние калории: " + extraCalories);
 
