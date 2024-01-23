@@ -67,19 +67,19 @@ public class IStudyBasicJava {
         System.out.println("Стало: " + upperCaseString);
     }
 
-    public static void convertToLowerCase(String inputString){
-        String lowerCaseString = inputString.toLowerCase();
+    public static void convertToLowerCase(String myString){
+        String lowerCaseString = myString.toLowerCase();
         System.out.println("====================================");
         System.out.println("Преобразуем строку к нижнему регистру");
-        System.out.println("Было: " + inputString);
+        System.out.println("Было: " + myString);
         System.out.println("Стало: " + lowerCaseString);
     }
 
-    public static void substringFromMyString(String inputString){
-        String substringFromMyString = inputString.substring(12, 16);
+    public static void substringFromMyString(String myString){
+        String substringFromMyString = myString.substring(12, 16);
         System.out.println("====================================");
         System.out.println("Вырезаем подстроки с 12 по 16");
-        System.out.println("Исходная строка: " + inputString);
+        System.out.println("Исходная строка: " + myString);
         System.out.println("Вырезанная подстрока: " + substringFromMyString);
     }
 
