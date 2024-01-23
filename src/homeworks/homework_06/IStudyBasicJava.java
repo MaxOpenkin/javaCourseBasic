@@ -29,12 +29,12 @@ public class IStudyBasicJava {
     }
 
 
-    public static void printMyString (String myString){
+    public static void printMyString(String myString){
         System.out.println("====================================");
         System.out.println("Полученная строка: " + myString);
     }
 
-    public static int myStringLength (int myTextLength){
+    public static int myStringLength(int myTextLength){
         System.out.println("Вычисление длины строки: " + myTextLength);
         return myTextLength;
     }
