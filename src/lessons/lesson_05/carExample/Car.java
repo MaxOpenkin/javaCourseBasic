@@ -7,7 +7,8 @@ public class Car {
     public String engine;
 
      public void signal(){
-        System.out.println("Автомобиль " + model + " сигналит! ");
+
+         System.out.println("Автомобиль " + model + " сигналит! ");
     }
 
     public void engineStart(String message) {
