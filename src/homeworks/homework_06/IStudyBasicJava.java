@@ -29,9 +29,9 @@ public class IStudyBasicJava {
     }
 
 
-    public static void printMyString (String inputString){
+    public static void printMyString (String myString){
         System.out.println("====================================");
-        System.out.println("Полученная строка: " + inputString);
+        System.out.println("Полученная строка: " + myString);
     }
 
     public static int myStringLength (int myTextLength){
@@ -39,31 +39,31 @@ public class IStudyBasicJava {
         return myTextLength;
     }
 
-    public static void printLastCharAt(String inputString){
-        int length = inputString.length();
-        char lastChar = inputString.charAt(length - 1);
+    public static void printLastCharAt(String myString){
+        int length = myString.length();
+        char lastChar = myString.charAt(length - 1);
         System.out.println("Последний символ строки: " + lastChar);
     }
 
-    public static void checkString(String inputString){
-        boolean containsJava = inputString.contains("Java");
+    public static void checkString(String myString){
+        boolean containsJava = myString.contains("Java");
         System.out.println("====================================");
         System.out.println("Строка содержит подстроку Java");
     }
 
-    public static void replaceCharacters(String inputString){
-        String modifiedString = inputString.replace('a', 'o');
+    public static void replaceCharacters(String myString){
+        String modifiedString = myString.replace('a', 'o');
         System.out.println("====================================");
         System.out.println("Меняем все символы 'a' на 'o': ");
-        System.out.println("Было: " + inputString);
+        System.out.println("Было: " + myString);
         System.out.println("Стало: " + modifiedString);
     }
 
-    public static void convertToUpperCase(String inputString){
-        String upperCaseString = inputString.toUpperCase();
+    public static void convertToUpperCase(String myString){
+        String upperCaseString = myString.toUpperCase();
         System.out.println("====================================");
         System.out.println("Преобразуем строку к верхнему регистру");
-        System.out.println("Было: " + inputString);
+        System.out.println("Было: " + myString);
         System.out.println("Стало: " + upperCaseString);
     }
 
