@@ -2,11 +2,13 @@ package homeworks.homework_06;
 
 public class Pizza {
 
-    private static double calculatePizzaArea(double diameter) {
+    public static double calculatePizzaArea(double diameter) {
         double radius = diameter / 2.0;
         return Math.PI * Math.pow(radius, 2);
     }
 
+    // Можно было создать шаблон double diameter;
+    // Cоздать 2 новых экземпляра new Pizza в новом классе и уже там решать...
 
     public static void main(String[] args) {
 

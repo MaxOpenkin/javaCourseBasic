@@ -5,7 +5,7 @@ class Task_01 {
     public static void main(String[] args) {
 
         String name = "Max";
-        int age = 33;
+        int age = 18;
         String location = "Giessen";
 
         System.out.println("Меня зовут " + name);

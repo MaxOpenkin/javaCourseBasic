@@ -8,19 +8,20 @@ public class ScannerExample {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Введите первое слово: ");
-        String firstWord = scanner.next();
+        String firstWord = scanner.nextLine();
 
         System.out.print("Введите второе слово: ");
-        String secondWord = scanner.next();
+        String secondWord = scanner.nextLine();
 
         scanner.close();
+
 
         String firstHalf = firstWord.substring(0, firstWord.length() / 2);
         String secondHalf = secondWord.substring(secondWord.length() / 2);
 
         String resultWord = firstHalf + secondHalf;
 
-        System.out.println("Результат: " + resultWord);
+        System.out.println("Результат первой части первого слова и второй части второго слова: " + resultWord);
 
     }
 }
