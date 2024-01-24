@@ -6,8 +6,32 @@ public class PizzaVer2Demo {
 
     public static void main(String[] args) {
 
-        PizzaVer2 pizza1 = new PizzaVer2(24.0);
-        PizzaVer2 pizza2 = new PizzaVer2(28.0);
+        // Можно делать с int, тогда будут целые числа или использовать округление, но лучше int
+
+        PizzaVer2 pizza1 = new PizzaVer2(24.0, 40.0);
+        PizzaVer2 pizza2 = new PizzaVer2(28.0, 40.0);
+
+        System.out.println(pizza1); // Выводит адрес пиццы
+        System.out.println(pizza2); // Выводит адрес пиццы
+
+        System.out.println(pizza1.pizzaDiameter + " и " + pizza1.caloriesInOneCm); // Выводит диаметр пиццы 1 и калории в см
+        System.out.println(pizza2.pizzaDiameter + " и " + pizza2.caloriesInOneCm); // Выводит диаметр пиццы 2 и калории в см
+
+        double caloriesPizza1 = pizza1.totalCaloriesInPizza();
+        System.out.println("Калории в первой пицце: " + caloriesPizza1);
+
+        double caloriesPizza2 = pizza2.totalCaloriesInPizza();
+        System.out.println("Калории во второй пицце: " + caloriesPizza2);
+
+        System.out.println("Разница: " + (caloriesPizza2 - caloriesPizza1));
+
+        double extraCaloriesPizza2ToPizza1 = caloriesPizza2 - caloriesPizza1;
+
+        System.out.println("Разница c другим вариантом: " + extraCaloriesPizza2ToPizza1);
+
+
+
+        // Старый вариант:
 
 
         double area1 = pizza1.calculatePizzaArea(pizza1.pizzaDiameter);

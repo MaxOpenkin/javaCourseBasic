@@ -7,7 +7,7 @@ public class Pizza {
         return Math.PI * Math.pow(radius, 2);
     }
 
-    // Можно было создать шаблон double diameter;
+    // Можно было создать шаблон double diameter и методы;
     // Cоздать 2 новых экземпляра new Pizza в новом классе и уже там решать...
 
     public static void main(String[] args) {
