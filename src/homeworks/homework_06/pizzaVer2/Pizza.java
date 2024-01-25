@@ -1,12 +1,12 @@
 package homeworks.homework_06.pizzaVer2;
 
-public class PizzaVer2 {
+public class Pizza {
 
     double pizzaDiameter;
     double caloriesInOneCm;
 
 
-    public PizzaVer2(double pizzaDiameter, double caloriesInOneCm) {
+    public Pizza(double pizzaDiameter, double caloriesInOneCm) {
         this.pizzaDiameter = pizzaDiameter;
         this.caloriesInOneCm = caloriesInOneCm;
     }

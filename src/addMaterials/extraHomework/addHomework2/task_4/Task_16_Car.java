@@ -5,6 +5,7 @@ public class Task_16_Car {
     String model;
 
     Task_16_Car(String newModel) {
+
         this.model = newModel;
     }
 

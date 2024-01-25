@@ -2,14 +2,14 @@ package homeworks.homework_06.pizzaVer2;
 
 import homeworks.homework_06.iStudyBasicJavaVer2.IStudyBasicJavaVer2;
 
-public class PizzaVer2Demo {
+public class PizzaDemo {
 
     public static void main(String[] args) {
 
         // Можно делать с int, тогда будут целые числа или использовать округление, но лучше int
 
-        PizzaVer2 pizza1 = new PizzaVer2(24.0, 40.0);
-        PizzaVer2 pizza2 = new PizzaVer2(28.0, 40.0);
+        Pizza pizza1 = new Pizza(24.0, 40.0);
+        Pizza pizza2 = new Pizza(28.0, 40.0);
 
         System.out.println(pizza1); // Выводит адрес пиццы
         System.out.println(pizza2); // Выводит адрес пиццы
@@ -20,10 +20,15 @@ public class PizzaVer2Demo {
         double caloriesPizza1 = pizza1.totalCaloriesInPizza();
         System.out.println("Калории в первой пицце: " + caloriesPizza1);
 
+
         double caloriesPizza2 = pizza2.totalCaloriesInPizza();
         System.out.println("Калории во второй пицце: " + caloriesPizza2);
 
+        // Такой вариант:
+
         System.out.println("Разница: " + (caloriesPizza2 - caloriesPizza1));
+
+        // Или такой вариант:
 
         double extraCaloriesPizza2ToPizza1 = caloriesPizza2 - caloriesPizza1;
 

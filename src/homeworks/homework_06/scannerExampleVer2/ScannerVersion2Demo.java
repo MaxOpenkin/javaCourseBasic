@@ -1,13 +1,13 @@
 package homeworks.homework_06.scannerExampleVer2;
 
-public class ScannerVer2Demo {
+public class ScannerVersion2Demo {
 
     public static void main(String[] args) {
 
-        ScannerVer2 scannerVer2 = new ScannerVer2();
+        InputText sourceText = new InputText();
 
-        String word1 = scannerVer2.inputTextFromKeyboard("Please enter word 1: ");
-        String word2 = scannerVer2.inputTextFromKeyboard("Please enter word 2: ");
+        String word1 = sourceText.inputTextFromKeyboard("Please enter word 1: ");
+        String word2 = sourceText.inputTextFromKeyboard("Please enter word 2: ");
 
         System.out.println("First word: " + word1);
         System.out.println("Second word: " + word2);
