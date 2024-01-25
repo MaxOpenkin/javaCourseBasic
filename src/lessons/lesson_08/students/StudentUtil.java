@@ -1,4 +1,4 @@
-package lessons.lesson_08.studentGroup;
+package lessons.lesson_08.students;
 
 public class StudentUtil {
 
