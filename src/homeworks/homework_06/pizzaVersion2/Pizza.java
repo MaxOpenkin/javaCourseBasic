@@ -1,4 +1,4 @@
-package homeworks.homework_06.pizzaVer2;
+package homeworks.homework_06.pizzaVersion2;
 
 public class Pizza {
 

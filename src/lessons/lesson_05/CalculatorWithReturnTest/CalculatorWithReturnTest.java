@@ -7,6 +7,11 @@ public class CalculatorWithReturnTest {
         return result;
     }
 
+    // Variant 2 method sub
+    public int sub1(int a, int b) {
+        return a - b;
+    }
+
     public int multiplication(int a, int b) {
         int result = a * b;
         return result;

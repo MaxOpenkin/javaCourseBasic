@@ -14,6 +14,7 @@ public class StringMyName1 {
         System.out.println("Please enter your Name: ");
         String textMessage = scanner.nextLine();
         System.out.println(greeting);
+        scanner.close();
 
     }
 

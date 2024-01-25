@@ -1,6 +1,4 @@
-package homeworks.homework_06.pizzaVer2;
-
-import homeworks.homework_06.iStudyBasicJavaVer2.IStudyBasicJavaVer2;
+package homeworks.homework_06.pizzaVersion2;
 
 public class PizzaDemo {
 

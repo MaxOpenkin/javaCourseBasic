@@ -9,8 +9,10 @@ public class CalculatorWithReturnDemo {
         int b = 10;
 
         int resultFromMethod = calculatorWithReturnTest.sub(a, b);
+        int resultFromMethodSub1 = calculatorWithReturnTest.sub1(a, b);
 
         System.out.println("Результат вычитания a и b: а = " + a + " - b = " + b + " будет равен: " + resultFromMethod);
+        System.out.println("Результат вычитания a и b: а = " + a + " - b = " + b + " будет равен: " + resultFromMethodSub1);
 
 
         CalculatorWithReturnTest calculatorWithReturnTest1 = new CalculatorWithReturnTest();
