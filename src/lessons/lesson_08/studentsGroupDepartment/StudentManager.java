@@ -14,7 +14,7 @@ public class StudentManager {
         String nameDepartment = ui.inputText("Name department: ");
         String nameGroup = ui.inputText("Name group: ");
         String startDate = ui.inputText("Start Date: ");
-        int studentCount = Integer.parseInt(ui.inputText("Student count: "));
+        int studentCount = ui.inputInteger("Student count: ");
 
         return new Group(nameDepartment, nameGroup, startDate, studentCount);
     }
