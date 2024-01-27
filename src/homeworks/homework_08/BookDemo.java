@@ -1,4 +1,4 @@
-package homeworks.homework_09;
+package homeworks.homework_08;
 
 public class BookDemo {
 
