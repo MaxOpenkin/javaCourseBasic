@@ -34,6 +34,7 @@ public class BookManager {
         int newCatalogNumber = ui.inputInteger("Введите новый номер книги в каталоге: ");
         String newLocation = ui.inputText("Где теперь находится книга: ");
 
-        book.editBook(newCatalogNumber, newPageCount, newLocation);
+        book.editBook(newPageCount, newCatalogNumber, newLocation);
     }
+
 }

@@ -1,4 +1,4 @@
-package lessons.lesson_09.code.lessoncode.ifStatement;
+package lessons.lesson_09.ifStatement;
 
 public class RelationalOperators {
     public static void main(String[] args) {

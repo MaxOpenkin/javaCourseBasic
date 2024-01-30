@@ -32,7 +32,8 @@ public class HappyTicket {
 
         if (number1 + number2 == number3 + number4) {
             System.out.println("Поздравляем! Ваш билет - счастливый!");
-        } else {
+        }
+        else {
             System.out.println("Ваш билет не является счастливым.");
         }
     }

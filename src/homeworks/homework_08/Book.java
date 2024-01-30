@@ -40,8 +40,30 @@ public class Book {
         System.out.println("----------------------------------------------");
     }
 
+    public void setBookAuthor(String bookAuthor) {
+        this.bookAuthor = bookAuthor;
+    }
+
+    public void setBookTitle(String bookTitle) {
+        this.bookTitle = bookTitle;
+    }
+
+    public void setPageCount(int pageCount) {
+        this.pageCount = pageCount;
+    }
+
+    public void setCatalogNumber(int catalogNumber) {
+        this.catalogNumber = catalogNumber;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
     @Override
     public String toString() {
         return " " + bookAuthor + " '" + bookTitle + "' ";
     }
 }
+
+
