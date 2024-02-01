@@ -3,16 +3,16 @@ package lessons.lesson_12.removeSpecialSymbols;
 public class RemoveSymbolsVersion2 {
 
     String removeSpecialSymbols(String text) {
-        StringBuilder result = new StringBuilder();
+        String result = new String();
 
         for (int i = 0; i < text.length(); i++) {
             char currentChar = text.charAt(i);
 
             if (currentChar != '(' && currentChar != ')' && currentChar != '@') {
-                result.append(currentChar);
+                result = result + currentChar;
             }
         }
-        return result.toString();
+        return result;
     }
 }
 /*
