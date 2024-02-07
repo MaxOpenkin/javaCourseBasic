@@ -1,6 +1,6 @@
 package homeworks.homework_09.task_03;
 
-import lessons.lesson_06.scanner.UserInput;
+import lessons.lesson_06_scanner_Random.scanner.UserInput;
 
 public class SwitchNumbersAndDays {
 

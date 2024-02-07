@@ -8,6 +8,7 @@ public class Cat {
     // Прописываем классу Cat метод (функцию) мяукать:
 
     public void catMeow(){
+
         System.out.println("Meow!!!");
     }
 

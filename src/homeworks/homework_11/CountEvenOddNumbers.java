@@ -1,6 +1,6 @@
 package homeworks.homework_11;
 
-import lessons.lesson_06.scanner.UserInput;
+import lessons.lesson_06_scanner_Random.scanner.UserInput;
 
 public class CountEvenOddNumbers {
     public static void main(String[] args) {

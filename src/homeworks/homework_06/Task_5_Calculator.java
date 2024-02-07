@@ -4,5 +4,5 @@ public class Task_5_Calculator {
 
     String myCalculator = "";
 
-    // Это задание я тоже уже сделал на уроке lesson_05, называется CalculatorWithReturnTest :)
+    // Это задание я тоже уже сделал на уроке lesson_05_multiCooker, называется CalculatorWithReturnTest :)
 }
