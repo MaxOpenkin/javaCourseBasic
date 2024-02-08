@@ -1,4 +1,4 @@
-package lessons.lesson_17_lottery.Lottery;
+package lessons.lesson_17_lottery.lottery;
 
 import java.util.Arrays;
 import java.util.Random;
@@ -9,10 +9,12 @@ public class Lottery {
     private int[] winnerNumbers;
 
     public int[] getAllLotteryNumbers() {
+
         return allLotteryNumbers;
     }
 
     public int[] getWinnerNumbers() {
+
         return winnerNumbers;
     }
 
@@ -46,7 +48,5 @@ public class Lottery {
 
         System.out.println(Arrays.toString(winnerNumbers));
     }
-
-
 
 }

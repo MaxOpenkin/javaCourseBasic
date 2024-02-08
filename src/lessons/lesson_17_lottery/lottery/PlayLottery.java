@@ -1,4 +1,4 @@
-package lessons.lesson_17_lottery.Lottery;
+package lessons.lesson_17_lottery.lottery;
 
 public class PlayLottery {
     public static void main(String[] args) {

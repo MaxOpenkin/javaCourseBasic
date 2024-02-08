@@ -1,4 +1,4 @@
-package lessons.lesson_17_lottery.Lottery;
+package lessons.lesson_17_lottery.lotteryVersion2;
 
 import java.util.Arrays;
 
@@ -26,12 +26,12 @@ public class Player {
         return numberTickets;
     }
 
-    public void buyAnfFillTickets(int sizeTicket, int sizeLotteryNumbers){
+    public void fillTickets(int sizeTicket, int sizeLotteryNumbers, boolean isRandom){
         tickets = new LotteryTicket[numberTickets];
 
         for (int i = 0; i < tickets.length; i++) {
             tickets[i] = new LotteryTicket();
-            tickets[i].createAndFillTicket(sizeTicket,sizeLotteryNumbers);
+            tickets[i].createAndFillTicket(sizeTicket,sizeLotteryNumbers, isRandom, i);
             Arrays.sort(tickets[i].getTicketNumbers());
         }
     }

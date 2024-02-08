@@ -27,4 +27,11 @@ public class UserInput {
         return inputDouble;
     }
 
+    public boolean inputBoolean(String message){
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(message);
+        boolean inputBoolean = scanner.nextBoolean();
+        return inputBoolean;
+    }
+
 }
