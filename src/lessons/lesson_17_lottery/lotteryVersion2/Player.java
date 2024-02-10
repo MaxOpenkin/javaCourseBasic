@@ -15,14 +15,17 @@ public class Player {
     }
 
     public String getIdCode() {
+
         return idCode;
     }
 
     public LotteryTicket[] getTickets() {
+
         return tickets;
     }
 
     public int getNumberTickets() {
+
         return numberTickets;
     }
 
