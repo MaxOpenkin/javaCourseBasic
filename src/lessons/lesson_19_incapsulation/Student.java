@@ -1,4 +1,4 @@
-package lessons.lesson_19.incapsulation;
+package lessons.lesson_19_incapsulation;
 
 public class Student {
 

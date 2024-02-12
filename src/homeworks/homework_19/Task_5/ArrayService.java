@@ -18,6 +18,7 @@ public class ArrayService {
     int[] array;
 
     public int[] generateRandomArray() {
+
         UserInput userInput = new UserInput();
         Random random = new Random();
 
@@ -28,6 +29,7 @@ public class ArrayService {
         }
 
         array = new int[n];
+
         for (int i = 0; i < array.length; i++) {
             array[i] = random.nextInt(n + 1);
         }
@@ -57,15 +59,16 @@ public class ArrayService {
         }
 
         // Печатаем четные элементы
+        /*
         if (evenCount > 0) {
-            System.out.print("Массив из чётных элементов первого массива: ");
+            System.out.print("Четные элементы первого массива: ");
             for (int i = 0; i < evenCount; i++) {
                 System.out.print(evenArray[i] + " ");
             }
             System.out.println();
         } else {
             System.out.println("В исходном массиве нет чётных элементов.");
-        }
+         */
 
         return evenArray;
     }

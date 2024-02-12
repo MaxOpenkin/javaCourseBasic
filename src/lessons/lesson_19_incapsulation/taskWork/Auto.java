@@ -1,4 +1,4 @@
-package lessons.lesson_19.taskWork;
+package lessons.lesson_19_incapsulation.taskWork;
 
 public class Auto {
     private String producer;
