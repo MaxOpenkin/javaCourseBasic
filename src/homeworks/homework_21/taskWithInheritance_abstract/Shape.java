@@ -1,4 +1,4 @@
-package lessons.lesson_20_abstract_inheritance.inheritance.withInheritance;
+package homeworks.homework_21.taskWithInheritance_abstract;
 
 public abstract class Shape {
     private String title;
