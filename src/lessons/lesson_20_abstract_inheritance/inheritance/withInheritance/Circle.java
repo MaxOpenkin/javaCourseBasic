@@ -5,9 +5,25 @@ public class Circle extends Shape {
 
     private double radius;
 
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+
     public Circle(String title, double radius) {
         super(title);
         this.radius = radius;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "radius=" + radius +
+                '}';
     }
 
     @Override
@@ -20,3 +36,5 @@ public class Circle extends Shape {
         return 2* Math.PI * radius;
     }
 }
+
+

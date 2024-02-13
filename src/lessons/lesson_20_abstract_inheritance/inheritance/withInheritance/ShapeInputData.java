@@ -3,9 +3,9 @@ package lessons.lesson_20_abstract_inheritance.inheritance.withInheritance;
 public class ShapeInputData {
 
     public Shape[] inputShapesData(){
-        Circle circle1 = new Circle("Circle 1", 5);
-        Circle circle2 = new Circle("Circle 2", 9);
-        Circle circle3 = new Circle("Circle 3", 15);
+        Circle circle1 = new Circle(5);
+        Circle circle2 = new Circle(9);
+        Circle circle3 = new Circle(15);
 
         Square square1 = new Square("Square 1", 3);
         Square square2 = new Square("Square 2", 10);

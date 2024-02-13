@@ -1,5 +1,7 @@
 package lessons.lesson_20_abstract_inheritance.inheritance.withInheritance;
 
+import java.util.Random;
+
 public class Rectangle extends Shape{
 
     private double sideA;
@@ -10,6 +12,7 @@ public class Rectangle extends Shape{
         this.sideA = sideA;
         this.sideB = sideB;
     }
+
 
     @Override
     public double calculatorArea(){
