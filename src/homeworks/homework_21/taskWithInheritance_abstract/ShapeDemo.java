@@ -2,7 +2,7 @@ package homeworks.homework_21.taskWithInheritance_abstract;
 
 import java.util.Arrays;
 
-public class ShapeDemoInherintance {
+public class ShapeDemo {
     public static void main(String[] args) {
 
         ShapeUtil util = new ShapeUtil();
@@ -18,6 +18,8 @@ public class ShapeDemoInherintance {
 
         // Shape[] circles = service.createRandomArrayCircle();
         // System.out.println("Массив с рандомным размером и параметрами фигур типа Круг: " + Arrays.toString(circles));
+
+
 
         Shape[] shapes = service.createRandomShapesArray();
         System.out.println("Массив с рандомными размером, фигурами и параметрами фигур: " + Arrays.toString(shapes));
