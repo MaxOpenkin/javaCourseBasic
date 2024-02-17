@@ -3,7 +3,6 @@ package homeworks.projects.arrayService;
 import lessons.lesson_06_scanner_Random.scanner.UserInput;
 
 import java.util.Arrays;
-import java.util.Random;
 
 public class ArrayService {
 
