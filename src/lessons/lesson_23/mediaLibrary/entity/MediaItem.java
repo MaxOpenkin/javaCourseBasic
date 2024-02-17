@@ -1,4 +1,4 @@
-package lesson_23.code.lessoncode.mediaLibrary.entity;
+package lessons.lesson_23.mediaLibrary.entity;
 
 public abstract class MediaItem {
 

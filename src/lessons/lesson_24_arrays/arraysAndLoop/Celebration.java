@@ -1,4 +1,4 @@
-package lesson_24.code.lessoncode.arraysAndLoop;
+package lessons.lesson_24_arrays.arraysAndLoop;
 
 public class Celebration {
     public static void main(String[] args) {

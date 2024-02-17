@@ -1,8 +1,10 @@
-package lesson_23.code.lessoncode.mediaLibrary;
+package lessons.lesson_23.mediaLibrary;
 
-import lesson_23.code.lessoncode.mediaLibrary.entity.Book;
-import lesson_23.code.lessoncode.mediaLibrary.entity.Magazine;
-import lesson_23.code.lessoncode.mediaLibrary.service.LibraryCatalog;
+
+
+import lessons.lesson_23.mediaLibrary.entity.Book;
+import lessons.lesson_23.mediaLibrary.entity.Magazine;
+import lessons.lesson_23.mediaLibrary.service.LibraryCatalog;
 
 public class LibraryApp {
     public static void main(String[] args) {

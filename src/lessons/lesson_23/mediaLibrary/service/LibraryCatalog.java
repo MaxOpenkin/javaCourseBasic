@@ -1,6 +1,7 @@
-package lesson_23.code.lessoncode.mediaLibrary.service;
+package lessons.lesson_23.mediaLibrary.service;
 
-import lesson_23.code.lessoncode.mediaLibrary.entity.MediaItem;
+
+import lessons.lesson_23.mediaLibrary.entity.MediaItem;
 
 public class LibraryCatalog {
     private MediaItem[] items = new MediaItem[10];

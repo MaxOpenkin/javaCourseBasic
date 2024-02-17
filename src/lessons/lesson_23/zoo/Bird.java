@@ -1,4 +1,4 @@
-package lesson_23.code.lessoncode.zoo;
+package lessons.lesson_23.zoo;
 
 public class Bird extends Animal implements Flyable{
 

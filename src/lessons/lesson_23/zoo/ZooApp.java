@@ -1,4 +1,4 @@
-package lesson_23.code.lessoncode.zoo;
+package lessons.lesson_23.zoo;
 
 public class ZooApp {
     public static void main(String[] args) {
