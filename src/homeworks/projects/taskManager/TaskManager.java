@@ -15,7 +15,6 @@ public class TaskManager {
     // Конструктор класса с инициализацией массивов задач с разными статусами определенной ёмкости:
     public TaskManager(int capacity) {
         tasks = new Task[capacity];
-        size = 0;
         completedTasks = new Task[capacity];
     }
 
