@@ -1,4 +1,4 @@
-package homeworks.projects_01.taskManager;
+package homeworks.projects.taskManager;
 
 public class TaskDemo {
 
@@ -9,9 +9,11 @@ public class TaskDemo {
         System.out.println("===========================================");
 
         taskManager.addTask(new Task
-                ("Автосервис",
-                "Отвезти машину в сервис завтра в 08:00",
-                1, true)
+                (
+                        "Автосервис",
+                        "Отвезти машину в сервис завтра в 08:00",
+                        1,
+                        true)
         );
 
         System.out.println("===========================================");

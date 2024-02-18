@@ -1,4 +1,4 @@
-package homeworks.projects_01.taskManager;
+package homeworks.projects.taskManager;
 
 import lessons.lesson_06_scanner_Random.scanner.UserInput;
 

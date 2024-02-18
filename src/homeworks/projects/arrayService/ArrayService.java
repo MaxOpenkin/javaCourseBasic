@@ -1,4 +1,4 @@
-package homeworks.projects_01.arrayService;
+package homeworks.projects.arrayService;
 
 import lessons.lesson_06_scanner_Random.scanner.UserInput;
 

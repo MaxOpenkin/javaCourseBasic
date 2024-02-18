@@ -1,4 +1,4 @@
-package homeworks.projects_01.taskManager;
+package homeworks.projects.taskManager;
 
 public class Task {
 
