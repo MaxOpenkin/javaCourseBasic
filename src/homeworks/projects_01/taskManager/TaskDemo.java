@@ -6,19 +6,25 @@ public class TaskDemo {
 
         TaskManager taskManager = new TaskManager(3);
 
+        System.out.println("===========================================");
+
         taskManager.addTask(new Task
-                (1,
-                "Автосервис",
+                ("Автосервис",
                 "Отвезти машину в сервис завтра в 08:00",
-                1,
-                "Не выполнено")
+                1, true)
         );
 
-        taskManager.changeTaskStatus(1,"Выполнено");
+        System.out.println("===========================================");
+
+        taskManager.changeTaskStatus(1);
+
+        System.out.println("===========================================");
 
         taskManager.createTaskFromUserInput();
 
         taskManager.sortTasks();
+
+        System.out.println("===========================================");
 
         taskManager.printTasks();
 

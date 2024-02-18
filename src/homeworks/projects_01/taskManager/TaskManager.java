@@ -5,30 +5,34 @@ import lessons.lesson_06_scanner_Random.scanner.UserInput;
 public class TaskManager {
 
     private Task[] tasks;
+    private Task[] completedTasks;
     private int size = 0;
+    private int completedSize = 0;
 
     UserInput userInput = new UserInput();
 
 
-    // Конструктор класса с инициализацией массива задач определенной ёмкости
+    // Конструктор класса с инициализацией массивов задач с разными статусами определенной ёмкости:
     public TaskManager(int capacity) {
         tasks = new Task[capacity];
         size = 0;
+        completedTasks = new Task[capacity];
     }
 
 
-    public Task createTaskFromUserInput(){
+    public Task createTaskFromUserInput() {
         if (size >= tasks.length) {
             System.out.println("Массив задач полон. Невозможно добавить новую задачу.");
         }
-        int id = userInput.inputInteger("Введите ID задачи: ");
+        //int id = userInput.inputInteger("Введите ID задачи: ");
         String taskTitle = userInput.inputText("Введите название задачи: ");
         String taskDescription = userInput.inputText("Введите описание задачи: ");
         int priority = userInput.inputInteger("Введите приоритет задачи (целое число): ");
-        String status = userInput.inputText("Введите статус задачи: ");
-        Task newTask = new Task(id, taskTitle, taskDescription, priority, status);
+        boolean isStatus = false;
+        Task newTask = new Task(taskTitle, taskDescription, priority, isStatus);
         tasks[size++] = newTask;
-        System.out.println("Задача успешно добавлена.");
+        String statusMessage = isStatus ? "выполнена" : "не выполнена";
+        System.out.println("Задача успешно добавлена. ID задачи: " + newTask.getId() + ", статус задачи: " + statusMessage);
         return newTask;
     }
 
@@ -37,18 +41,23 @@ public class TaskManager {
         if (size < tasks.length) {
             tasks[size] = task;
             size++;
-            System.out.println("Task added: " + task);
+            System.out.println("Задача успешно добавлена: " + task);
         } else {
             System.out.println("Массив задач полон. Невозможно добавить новую задачу.");
         }
     }
 
 
-    public void changeTaskStatus(int id, String newStatus) {
+    public void changeTaskStatus(int id) {
         for (int i = 0; i < size; i++) {
             if (tasks[i].getId() == id) {
-                tasks[i].setStatus(newStatus);
-                System.out.println("Статус задачи с ID " + id + " изменен на \"" + newStatus + "\".");
+                tasks[i].setStatus(true); // Отмечаем задачу как выполненную
+                // Перемещаем задачу в массив выполненных задач
+                completedTasks[completedSize++] = tasks[i];
+                // Удаление задачи из активных
+                System.arraycopy(tasks, i + 1, tasks, i, size - i - 1);
+                size--;
+                System.out.println("Задача с ID " + id + " выполнена и перемещена в список выполненных задач.");
                 return;
             }
         }
@@ -87,14 +96,33 @@ public class TaskManager {
 
     public void printTasks() {
         if (size == 0) {
-            System.out.println("Список задач пуст.");
-            return;
+            System.out.println("Список активных задач пуст.");
+        } else {
+            System.out.println("Активные задачи:");
+            for (int i = 0; i < size; i++) {
+                String statusMessage = tasks[i].getStatus() ? "выполнена" : "не выполнена";
+                System.out.println(
+                        "ID: " + tasks[i].getId()
+                        + ", Название: " + tasks[i].getTaskTitle()
+                        + ", Описание: " + tasks[i].getTaskDescription()
+                        + ", Приоритет: " + tasks[i].getPriority()
+                        + ", Статус: " + statusMessage);
+            }
         }
-        for (int i = 0; i < size; i++) {
-            System.out.println("ID: " + tasks[i].getId() + ", Title: " + tasks[i].getTaskTitle() +
-                    ", Description: " + tasks[i].getTaskDescription() + ", Priority: " + tasks[i].getPriority() +
-                    ", Status: " + tasks[i].getStatus());
-        }
-    }
 
+        if (completedSize == 0) {
+            System.out.println("Список выполненных задач пуст.");
+        } else {
+            System.out.println("Выполненные задачи:");
+            for (int i = 0; i < completedSize; i++) {
+                System.out.println(
+                        "ID: " + completedTasks[i].getId()
+                        + ", Название: " + completedTasks[i].getTaskTitle()
+                        + ", Описание: " + completedTasks[i].getTaskDescription()
+                        + ", Приоритет: " + completedTasks[i].getPriority()
+                        + ", Статус: выполнена");
+            }
+        }
+
+    }
 }

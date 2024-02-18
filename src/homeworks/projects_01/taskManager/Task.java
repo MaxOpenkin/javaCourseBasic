@@ -3,20 +3,20 @@ package homeworks.projects_01.taskManager;
 public class Task {
 
     private int id;
+    private static int currentId = 1;
     private String taskTitle;
     private String taskDescription;
     private int priority;
-    private String status;
+    private boolean isStatus;
 
 
-    public Task(int id, String taskTitle, String taskDescription, int priority, String status) {
-        this.id = id;
+    public Task(String taskTitle, String taskDescription, int priority, boolean isStatus) {
+        this.id = currentId++;
         this.taskTitle = taskTitle;
         this.taskDescription = taskDescription;
         this.priority = priority;
-        this.status = status;
+        this.isStatus = isStatus;
     }
-
 
     public int getId() {
         return id;
@@ -24,6 +24,14 @@ public class Task {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    public static int getCurrentId() {
+        return currentId;
+    }
+
+    public static void setCurrentId(int currentId) {
+        Task.currentId = currentId;
     }
 
     public String getTaskTitle() {
@@ -50,13 +58,18 @@ public class Task {
         this.priority = priority;
     }
 
-    public String getStatus() {
-        return status;
+    public boolean isStatus() {
+        return isStatus;
     }
 
-    public void setStatus(String status) {
-        this.status = status;
+    public void setStatus(boolean status) {
+        isStatus = status;
     }
+
+    public boolean getStatus() {
+        return isStatus;
+    }
+
 
     @Override
     public String toString() {
@@ -64,8 +77,8 @@ public class Task {
                 "id=" + id +
                 ", taskTitle='" + taskTitle + '\'' +
                 ", taskDescription='" + taskDescription + '\'' +
-                ", priority='" + priority + '\'' +
-                ", status='" + status + '\'' +
+                ", priority=" + priority +
+                ", isStatus=" + isStatus +
                 '}';
     }
 }
