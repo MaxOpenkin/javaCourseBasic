@@ -1,4 +1,4 @@
-package lesson_26.code.lessoncode.arrayListObjects;
+package lessons.lesson_26.arrayListObjects;
 
 import java.util.ArrayList;
 

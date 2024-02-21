@@ -1,4 +1,4 @@
-package lesson_26.code.lessoncode.dynamicArrayStructure;
+package lessons.lesson_26.dynamicArrayStructure;
 
 import java.util.Arrays;
 
