@@ -10,7 +10,7 @@ public class Course {
     private Teacher teacher;
     private ArrayList<Student> students;
 
-    public Course(String courseId, String name, Teacher teacher, String department) {
+    public Course(String courseId, String name, Teacher teacher) {
         this.courseId = courseId;
         this.name = name;
         this.teacher = teacher;
@@ -19,8 +19,8 @@ public class Course {
     }
 
     // Методы для добавления студента и геттеры
-    public void enrollStudent(Student student) {
-        this.students.add(student);
+    public void addStudent(Student student){
+        students.add(student);
     }
     public String getCourseId() {
         return courseId;

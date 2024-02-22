@@ -14,11 +14,13 @@ public class LibraryManagement {
     private List<Reader> readers;
     private List<BookAndReader> bookAndReaders;
 
+
     public LibraryManagement(List<Book> books, List<Reader> readers, List<BookAndReader> bookAndReaders) {
         this.books = books;
         this.readers = readers;
         this.bookAndReaders = bookAndReaders;
     }
+
 
     public List<Book> getBooks() {
         return books;
@@ -44,6 +46,7 @@ public class LibraryManagement {
         bookAndReaders.add(bookAndReader);
     }
 
+
     // получить список книг, которые выданы читателю
     public List<Book> getBookByReader(Integer readerId) {
         List<Book> allBooksByReader = new ArrayList<>();
@@ -68,8 +71,8 @@ public class LibraryManagement {
             }
         }
         return allBooksByReader;
-
     }
+
 
     private Book findBookById(Integer bookId) {
         for (Book book : books) {

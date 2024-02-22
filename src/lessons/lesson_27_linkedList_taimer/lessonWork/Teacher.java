@@ -27,5 +27,14 @@ public class Teacher {
     public List<Course> getCourses() {
         return courses;
     }
+
+    @Override
+    public String toString() {
+        return "Teacher{" +
+                "teacherId='" + teacherId + '\'' +
+                ", name='" + name + '\'' +
+                ", courses=" + courses +
+                '}';
+    }
 }
 
