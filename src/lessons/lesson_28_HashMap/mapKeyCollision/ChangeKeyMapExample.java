@@ -7,14 +7,14 @@ public class ChangeKeyMapExample {
     public static void main(String[] args) {
         Map<PersonForCat, Cat> personCatMap = new HashMap<>();
 
-        personCatMap.put(new PersonForCat("Petya"), new Cat("Barsik"));
+        //personCatMap.put (new PersonForCat("Petya"), new Cat("Barsik"));
 
         PersonForCat person = new PersonForCat("Vasja");
         Cat cat = new Cat("Murzik");
 
         System.out.println("Person Vasja hashcode() = " + person.hashCode());
 
-        personCatMap.put(person, cat);
+        //personCatMap.put(person, cat);
         System.out.println(personCatMap);
 
         System.out.println("========== Изменяем имя у person =======");
