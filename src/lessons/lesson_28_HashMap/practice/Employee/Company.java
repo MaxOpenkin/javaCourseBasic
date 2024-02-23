@@ -38,11 +38,23 @@ public class Company {
     }
 
 
+//    public void printEmployeesByDepartment() {
+//        System.out.println("Employees by Department:");
+//        for (Map.Entry<String, Department> departmentEntry : departments.entrySet()) {
+//            System.out.println("Department: " + departmentEntry.getKey());
+//            List<Employee> employeesInDepartment = departmentEntry.getValue().getEmployees();
+//            for (Employee employee : employeesInDepartment) {
+//                System.out.println(" - " + employee.getId() + ": " + employee.getName());
+//            }
+//        }
+//    }
+
+
     public void printEmployeesByDepartment() {
         System.out.println("Employees by Department:");
-        for (Map.Entry<String, Department> departmentEntry : departments.entrySet()) {
-            System.out.println("Department: " + departmentEntry.getKey());
-            List<Employee> employeesInDepartment = departmentEntry.getValue().getEmployees();
+        for (Department department : departments.values()) {
+            System.out.println("Department: " + department.getName());
+            List<Employee> employeesInDepartment = department.getEmployees();
             for (Employee employee : employeesInDepartment) {
                 System.out.println(" - " + employee.getId() + ": " + employee.getName());
             }
@@ -50,12 +62,20 @@ public class Company {
     }
 
 
+
+//    public void printAllDepartments() {
+//        System.out.println("All Departments:");
+//        for (String departmentName : departments.keySet()) {
+//            System.out.println("- " + departmentName);
+//        }
+//    }
+
     public void printAllDepartments() {
-        System.out.println("All Departments:");
-        for (String departmentName : departments.keySet()) {
-            System.out.println("- " + departmentName);
-        }
+    System.out.println("All Departments:");
+    for (Department department : departments.values()) {
+        System.out.println("- " + department.getName());
     }
+}
 
 
 }
