@@ -1,11 +1,11 @@
-package lesson_26.code.lessoncode.arrayListExamples;
+package lessons.lesson_26_arrayList.arrayListExamples;
 
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class AlphabetListDemoStandartMethods {
     public static void main(String[] args) {
-        // Создадим ArrayList для хранения букв
+        // Создадим arrayList_reverse для хранения букв
         ArrayList<String> alphabet = new ArrayList<>();
 
         // добавим буквы в коллекцию

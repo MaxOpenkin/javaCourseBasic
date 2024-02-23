@@ -1,4 +1,4 @@
-package lesson_26.code.lessoncode.arrayListExamples;
+package lessons.lesson_26_arrayList.arrayListExamples;
 
 public class PhoneCollectionDemo {
     public static void main(String[] args) {
