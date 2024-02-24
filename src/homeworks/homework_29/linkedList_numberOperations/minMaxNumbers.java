@@ -2,13 +2,14 @@ package homeworks.homework_29.linkedList_numberOperations;
 
 import java.util.Collections;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Random;
 
 public class minMaxNumbers {
 
     public static void main(String[] args) {
 
-        LinkedList<Integer> numbers = new LinkedList<>();
+        List<Integer> numbers = new LinkedList<>();
 
         Random random = new Random();
 
