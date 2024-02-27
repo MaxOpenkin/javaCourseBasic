@@ -1,10 +1,10 @@
-package consultations.cons_11;
+package consultations.cons_10;
 
-import consultations.cons_11.entity.Author;
-import consultations.cons_11.entity.Book;
-import consultations.cons_11.entity.BookAndReader;
-import consultations.cons_11.entity.Reader;
-import consultations.cons_11.service.LibraryManagement;
+import consultations.cons_10.entity.Author;
+import consultations.cons_10.entity.Book;
+import consultations.cons_10.entity.BookAndReader;
+import consultations.cons_10.entity.Reader;
+import consultations.cons_10.service.LibraryManagement;
 
 import java.util.ArrayList;
 import java.util.List;

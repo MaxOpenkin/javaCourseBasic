@@ -1,4 +1,4 @@
-package consultations.cons_11.entity;
+package consultations.cons_10.entity;
 
 public class BookAndReader {
     private Integer bookId;

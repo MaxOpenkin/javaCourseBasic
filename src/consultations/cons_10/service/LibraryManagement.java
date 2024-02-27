@@ -1,9 +1,9 @@
-package consultations.cons_11.service;
+package consultations.cons_10.service;
 
 
-import consultations.cons_11.entity.Book;
-import consultations.cons_11.entity.BookAndReader;
-import consultations.cons_11.entity.Reader;
+import consultations.cons_10.entity.Book;
+import consultations.cons_10.entity.BookAndReader;
+import consultations.cons_10.entity.Reader;
 
 import java.util.ArrayList;
 import java.util.List;
