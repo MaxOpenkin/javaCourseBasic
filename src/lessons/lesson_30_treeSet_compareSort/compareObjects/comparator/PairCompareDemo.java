@@ -7,30 +7,18 @@ import java.util.TreeSet;
 public class PairCompareDemo {
     public static void main(String[] args) {
 
-        Comparator<Pair> pairComparatorId = new PairComparatorId();
+        Comparator<Pair> pairComparator = new PairComparatorId().thenComparing(new PairComparatorName());
 
-        Set<Pair> pairSetCompareId = new TreeSet<>(pairComparatorId);
+        Set<Pair> pairSetCompareSet = new TreeSet<>(pairComparator);
 
-        pairSetCompareId.add(new Pair(1,"Black"));
-        pairSetCompareId.add(new Pair(2,"White"));
-        pairSetCompareId.add(new Pair(3,"Red"));
-        pairSetCompareId.add(new Pair(4,"Black-White"));
-        pairSetCompareId.add(new Pair(5,"Blue"));
+        pairSetCompareSet.add(new Pair(1,"Black"));
+        pairSetCompareSet.add(new Pair(2,"White"));
+        pairSetCompareSet.add(new Pair(3,"Red"));
+        pairSetCompareSet.add(new Pair(4,"Black-White"));
+        pairSetCompareSet.add(new Pair(5,"Blue"));
 
-        System.out.println(pairSetCompareId);
-
-
-        Comparator<Pair> pairComparatorName = new PairComparatorName();
-        Set<Pair> pairSetCompareName = new TreeSet<>(pairComparatorName);
-
-        pairSetCompareName.add(new Pair(1,"Black"));
-        pairSetCompareName.add(new Pair(2,"White"));
-        pairSetCompareName.add(new Pair(3,"Red"));
-        pairSetCompareName.add(new Pair(4,"Black-White"));
-        pairSetCompareName.add(new Pair(5,"Blue"));
-
-        System.out.println(pairSetCompareName);
-
+        System.out.println(pairSetCompareSet);
 
     }
+
 }
