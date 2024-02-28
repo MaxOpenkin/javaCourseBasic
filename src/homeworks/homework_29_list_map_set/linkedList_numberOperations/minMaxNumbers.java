@@ -1,4 +1,4 @@
-package homeworks.homework_29.linkedList_numberOperations;
+package homeworks.homework_29_list_map_set.linkedList_numberOperations;
 
 import java.util.Collections;
 import java.util.LinkedList;

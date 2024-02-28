@@ -1,4 +1,4 @@
-package homeworks.homework_29.hashMap;
+package homeworks.homework_29_list_map_set.hashMap;
 
 import java.util.Collections;
 import java.util.HashMap;

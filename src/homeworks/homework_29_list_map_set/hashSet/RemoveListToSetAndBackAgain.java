@@ -1,4 +1,4 @@
-package homeworks.homework_29.hashSet;
+package homeworks.homework_29_list_map_set.hashSet;
 
 import java.util.ArrayList;
 import java.util.HashSet;

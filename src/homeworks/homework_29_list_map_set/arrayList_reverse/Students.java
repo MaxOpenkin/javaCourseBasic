@@ -1,4 +1,4 @@
-package homeworks.homework_29.arrayList_reverse;
+package homeworks.homework_29_list_map_set.arrayList_reverse;
 
 import java.util.ArrayList;
 

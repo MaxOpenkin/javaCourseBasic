@@ -1,4 +1,4 @@
-package homeworks.homework_29.hashMap;
+package homeworks.homework_29_list_map_set.hashMap;
 
 import lessons.lesson_06_scanner_Random.scanner.UserInput;
 
