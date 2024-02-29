@@ -1,4 +1,4 @@
-package lessons.lesson_33.treeMap;
+package lessons.lesson_33_treeMap.treeMap;
 
 
 import java.util.TreeMap;

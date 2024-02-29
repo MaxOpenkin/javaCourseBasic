@@ -1,4 +1,4 @@
-package lessons.lesson_33.graph;
+package lessons.lesson_33_treeMap.graph;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

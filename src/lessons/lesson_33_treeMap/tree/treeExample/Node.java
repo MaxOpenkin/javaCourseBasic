@@ -1,4 +1,4 @@
-package lessons.lesson_33.tree.treeExample;
+package lessons.lesson_33_treeMap.tree.treeExample;
 
 class Node {
     private int key;

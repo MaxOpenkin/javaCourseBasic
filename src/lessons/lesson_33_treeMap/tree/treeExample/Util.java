@@ -1,4 +1,4 @@
-package lessons.lesson_33.tree.treeExample;
+package lessons.lesson_33_treeMap.tree.treeExample;
 
 import java.util.LinkedList;
 import java.util.Queue;

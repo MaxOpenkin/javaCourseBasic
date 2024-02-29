@@ -1,4 +1,4 @@
-package lessons.lesson_33.practice;
+package lessons.lesson_33_treeMap.practice.contactsManager;
 
 public class ContactsApp {
 
