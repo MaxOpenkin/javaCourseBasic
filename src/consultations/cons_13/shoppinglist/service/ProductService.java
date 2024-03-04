@@ -1,6 +1,5 @@
 package consultations.cons_13.shoppinglist.service;
 
-
 import consultations.cons_13.shoppinglist.dto.*;
 import consultations.cons_13.shoppinglist.dto.error.ErrorCode;
 import consultations.cons_13.shoppinglist.dto.error.ErrorDto;
