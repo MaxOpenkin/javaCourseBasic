@@ -14,7 +14,7 @@ public class CarDealerApp {
             dealer.addCar(vin, car);
         }
         long endCreationTime = System.nanoTime();
-        long creationDuration = (endCreationTime - startCreationTime) / 1_000_000; // Конвертация в миллисекунды
+        long creationDuration = (endCreationTime - startCreationTime) / 1_000_000;
 
         // Измерение времени выполнения методов
         long startMethodTime = System.nanoTime();
@@ -25,7 +25,7 @@ public class CarDealerApp {
         //dealer.carsSortedByYearDescending();
 
         long endMethodTime = System.nanoTime();
-        long methodDuration = (endMethodTime - startMethodTime) / 1_000_000; // Конвертация в миллисекунды
+        long methodDuration = (endMethodTime - startMethodTime) / 1_000_000;
         System.out.println("Время создания 500000 автомобилей: " + creationDuration + " мс");
         System.out.println("Время выполнения методов: " + methodDuration + " мс");
     }
