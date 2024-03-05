@@ -2,9 +2,9 @@ package lessons.lesson_20_abstract_inheritance.inheritance;
 
 public class ShapeDemoOldSchool {
     public static void main(String[] args) {
-        Circle circle1 = new Circle("Circle 1", 5);
-        Circle circle2 = new Circle("Circle 2", 9);
-        Circle circle3 = new Circle("Circle 3", 15);
+        Circle circle1 = new Circle("circle 1", 5);
+        Circle circle2 = new Circle("circle 2", 9);
+        Circle circle3 = new Circle("circle 3", 15);
 
 
         Square square1 = new Square("Square 1", 3);

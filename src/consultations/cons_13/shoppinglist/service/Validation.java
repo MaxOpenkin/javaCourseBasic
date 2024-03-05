@@ -13,7 +13,7 @@ public class Validation {
         List<ErrorDto> errors = new ArrayList<>();
 
         if (productDto.getProductName().isBlank()) {
-            addError(errors, ErrorCode.IE_413, "Product name must not be null");
+            addError(errors, ErrorCode.IE_413,ErrorCode.IE_413.name()); //так правильно, нижние исправить тоже надо!
         }
 
         int productNameLength = productDto.getProductName().trim().length();

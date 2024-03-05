@@ -2,7 +2,7 @@ package lessons.lesson_20_abstract_inheritance.inheritance;
 
 public class ShapeDemo {
     public static void main(String[] args) {
-        Circle circle = new Circle("Circle", 10);
+        Circle circle = new Circle("circle", 10);
         System.out.println(circle.calculatorArea());
         System.out.println(circle.calculatorPerimeter());
 

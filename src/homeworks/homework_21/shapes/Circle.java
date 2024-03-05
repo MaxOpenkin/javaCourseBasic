@@ -21,7 +21,7 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return " Circle: {" +
+        return " circle: {" +
                 "Radius: " + radius +
                 ", Area: " + calculatorArea() +
                 ", Perimeter: " + calculatorPerimeter() +
