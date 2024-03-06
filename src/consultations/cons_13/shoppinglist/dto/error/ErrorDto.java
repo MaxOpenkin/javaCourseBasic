@@ -16,4 +16,12 @@ public class ErrorDto {
                 ", description='" + description + '\'' +
                 '}';
     }
+
+    public ErrorCode getErrorCode() {
+        return errorCode;
+    }
+
+    public String getDescription() {
+        return description;
+    }
 }
