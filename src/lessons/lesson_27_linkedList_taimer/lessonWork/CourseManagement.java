@@ -20,13 +20,13 @@ public class CourseManagement {
 
 
 
-        Student student1 = new Student("S1", "Student 1");
-        Student student2 = new Student("S2", "Student 2");
-        Student student3 = new Student("S3", "Student 3");
-        Student student4 = new Student("S4", "Student 4");
-        Student student5 = new Student("S5", "Student 5");
-        Student student6 = new Student("S6", "Student 6");
-        Student student7 = new Student("S7", "Student 7");
+        Student student1 = new Student("S1", "StudentDemo 1");
+        Student student2 = new Student("S2", "StudentDemo 2");
+        Student student3 = new Student("S3", "StudentDemo 3");
+        Student student4 = new Student("S4", "StudentDemo 4");
+        Student student5 = new Student("S5", "StudentDemo 5");
+        Student student6 = new Student("S6", "StudentDemo 6");
+        Student student7 = new Student("S7", "StudentDemo 7");
 
         course1.addStudent(student1);
         course2.addStudent(student2);

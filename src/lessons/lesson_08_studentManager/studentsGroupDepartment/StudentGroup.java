@@ -13,7 +13,7 @@ public class StudentGroup {
         Student student2 = manager.createStudent(group);
         Student student3 = manager.createStudent(group);
 
-        System.out.println("Student info: ");
+        System.out.println("StudentDemo info: ");
         student1.printStudentInfo();
         student2.printStudentInfo();
         student3.printStudentInfo();

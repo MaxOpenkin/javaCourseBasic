@@ -18,7 +18,7 @@ public class Student {
     public void printStudentInfo(){
         System.out.println("Last name: " + lastName);
         System.out.println("First name: " + firstName);
-        System.out.println("Student card number: " + studentCardNumber);
+        System.out.println("StudentDemo card number: " + studentCardNumber);
         System.out.println("Name group: " + group);
     }
 }

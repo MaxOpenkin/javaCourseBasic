@@ -20,7 +20,7 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "StudentDemo{" +
                 "studentId='" + studentId + '\'' +
                 ", name='" + name + '\'' +
                 '}';

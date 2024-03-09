@@ -14,7 +14,7 @@ public class StudentManager {
         String nameDepartment = ui.inputText("Name department: ");
         String nameGroup = ui.inputText("Name group: ");
         String startDate = ui.inputText("Start Date: ");
-        int studentCount = ui.inputInteger("Student count: ");
+        int studentCount = ui.inputInteger("StudentDemo count: ");
 
         return new Group(nameDepartment, nameGroup, startDate, studentCount);
     }
@@ -22,7 +22,7 @@ public class StudentManager {
     public Student createStudent(Group group){
         String lastName = ui.inputText("Last name: ");
         String firstName = ui.inputText("First name: ");
-        String studentCardNumber = ui.inputText("Student card number: ");
+        String studentCardNumber = ui.inputText("StudentDemo card number: ");
 
         return new Student(lastName, firstName, studentCardNumber, group);
     }

@@ -22,7 +22,7 @@ public class Group {
                 "Name department='" + nameDepartment + '\'' +
                 ", Name group='" + nameGroup + '\'' +
                 ", Start date='" + startDate + '\'' +
-                ", Student count=" + studentCount +
+                ", StudentDemo count=" + studentCount +
                 '}';
     }
 }
