@@ -8,7 +8,7 @@ public class CarDealerApp {
 
         // Измерение времени на создание автомобилей
         long startCreationTime = System.nanoTime();
-        for (int i = 0; i < 500000; i++) {
+        for (int i = 0; i < 1000000; i++) {
             String vin = "VIN" + i;
             Car car = new Car("Brand" + i, "Model" + i, 2000 + (i % 20), 20000 + (i * 10), 4.0 + (i % 5) * 0.1);
             dealer.addCar(vin, car);
@@ -26,7 +26,7 @@ public class CarDealerApp {
 
         long endMethodTime = System.nanoTime();
         long methodDuration = (endMethodTime - startMethodTime) / 1_000_000;
-        System.out.println("Время создания 500000 автомобилей: " + creationDuration + " мс");
+        System.out.println("Время создания 1000000 автомобилей: " + creationDuration + " мс");
         System.out.println("Время выполнения методов: " + methodDuration + " мс");
     }
 
