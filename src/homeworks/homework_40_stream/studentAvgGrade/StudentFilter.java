@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentFilter {
+
+    // Фильтрация списка студентов по возрасту и со средним баллом больше 4.5 Student
+    // { String name; int age; double avgGrade; }
     public static void main(String[] args) {
 
         List<Student> students = new ArrayList<>();
